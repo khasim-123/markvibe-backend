@@ -4,10 +4,10 @@ class UserCreate(BaseModel):
     name: str
     email: str
     number: str
-    address: str = None
+    address: Optional[str] = None
     flattype: str
-    budget: int = None      
-    
+    budget: optional[int] = None      
+
 
 class UserResponse(UserCreate):
     id: int
