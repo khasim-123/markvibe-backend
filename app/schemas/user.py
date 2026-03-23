@@ -6,7 +6,7 @@ class UserCreate(BaseModel):
     number: str
     address: Optional[str] = None
     flattype: str
-    budget: optional[int] = None      
+    budget: Optional[int] = None      
 
 
 class UserResponse(UserCreate):
