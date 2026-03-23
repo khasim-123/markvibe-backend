@@ -8,7 +8,7 @@ class UserCreate(BaseModel):
     address: Optional[str] = None
     flattype: str
     budget: Optional[int] = None      
-
+    description: Optional[str] = None   # ✅ NEW FIELD
 
 class UserResponse(UserCreate):
     id: int

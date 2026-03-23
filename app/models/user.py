@@ -11,3 +11,4 @@ class User(Base):
     address = Column(String, nullable=True)
     flattype = Column(String, nullable=False)
     budget = Column(Integer, nullable=True)
+    description = Column(String, nullable=True)   # ✅ NEW FIELD
